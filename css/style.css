@@ -1,0 +1,618 @@
+body {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-weight: bolder;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-variant: small-caps;
+}
+
+nav {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  color: antiquewhite;
+}
+nav p {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+}
+nav span {
+  background-color: brown;
+  font-size: larger;
+  height: 22%;
+  border-radius: 2px 15px 2px 15px;
+}
+nav .navContant {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+a {
+  text-decoration-line: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+a:hover {
+  text-shadow: 0 1px 0 rgb(119, 0, 255);
+}
+/***********************************************************************/
+.slider {
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+.test {
+  width: 100%;
+  height: 100%;
+}
+.dic {
+  color: wheat;
+  z-index: 1;
+  height: auto;
+  width: 250px;
+  margin-top: -280px;
+  margin-left: 75%;
+  text-align: center;
+  text-shadow: 0 1px 0 rgb(71, 71, 71);
+  position: absolute;
+}
+.dic button {
+  height: 15%;
+  width: 40%;
+  background: linear-gradient(
+    45deg,
+    rgb(0, 224, 224) 0%,
+    rgb(174, 0, 255) 100%
+  );
+  border: none;
+  border-radius: 6px;
+}
+
+.nandb {
+  height: 30px;
+  width: 100%;
+
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  z-index: 3;
+  margin-top: -170px;
+}
+.nandb button {
+  background: none;
+  border: none;
+  font-size: 30px;
+  color: rgb(117, 117, 117);
+}
+/***********************************************************************/
+
+.fasel {
+  height: 50px;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+.fasel .d1 {
+  color: rgb(250, 182, 56);
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  text-shadow: 0 1px 0 rgb(71, 71, 71);
+}
+.d2 span {
+  color: rgb(252, 200, 103);
+  text-shadow: 0 1px 0 rgb(71, 71, 71);
+}
+
+/***********************************************************************/
+
+.part3 {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.p3 {
+  background-color: rgb(39, 35, 34);
+  height: 80%;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  border-radius: 25px;
+  text-align: center;
+}
+.p3:hover {
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 20px 15px rgb(0, 174, 255);
+}
+.p3 i {
+  font-size: 50px;
+  width: 52px;
+  margin-left: 39%;
+  text-align: center;
+  cursor: pointer;
+}
+.p3 i:hover {
+  transition-duration: 1.5s;
+  animation: islam 1s infinite;
+  border: 1px black solid;
+
+  border-radius: 50%;
+}
+@keyframes islam {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.p31 {
+  transform: translateX(-350px);
+}
+.p32 {
+  transform: translateY(-480px);
+}
+.p33 {
+  transform: translateY(480px);
+}
+.p34 {
+  transform: translateX(350px);
+}
+
+/***********************/
+
+.p52 p i {
+  font-size: 15px;
+}
+
+/***********************************************************************/
+.part4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+}
+.p4 {
+  margin-bottom: 10px;
+  display: none;
+
+  animation: opactis 4s infinite;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+@keyframes opactis {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/***********************************************************************/
+.part5 {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+.bgimg {
+  height: 60%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  border-radius: 25px;
+}
+.bgimg abbr {
+  width: 100%;
+  height: 100%;
+  box-shadow: 10px 10px 12px rgb(0, 0, 0);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.bgimg abbr img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 10px 10px 12px rgb(0, 0, 0);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.bgimg abbr img:hover {
+  transition-duration: 2s;
+  box-shadow: 0px 0px 50px 40px rgb(145, 12, 3);
+}
+.smallimg {
+  width: 70%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+.smallimg abbr img {
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+  box-shadow: 0px 8px 8px rgb(70, 14, 14);
+  cursor: pointer;
+}
+.smallimg abbr img:hover {
+  transition-duration: 2s;
+  box-shadow: 0px 0px 20px 10px rgb(41, 4, 1);
+  height: 120px;
+  width: 120px;
+}
+.smallimg abbr {
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+  box-shadow: 0px 8px 8px rgb(0, 0, 0);
+  cursor: pointer;
+}
+/***********************************************************************/
+.part6 {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+}
+.ls {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+}
+.info {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+}
+.info p {
+  width: 80%;
+  height: 25%;
+  font-size: 30px;
+  border-radius: 10px;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(255, 0, 0);
+}
+.yinfo {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+
+  overflow: hidden;
+}
+
+.yinfo input {
+  border: none;
+  width: 80%;
+  height: 15%;
+  background-color: rgb(70, 70, 70);
+  border: 1px orangered solid;
+  box-shadow: 15px 15px 19px 8px rgba(0, 0, 0, 0.555);
+  border-radius: 10px;
+  text-align: center;
+  font-size: larger;
+  color: wheat;
+}
+
+.rs {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+}
+.rs input {
+  height: 30%;
+  width: 70%;
+  margin-top: 20%;
+  box-shadow: 15px 15px 19px 8px rgba(0, 0, 0, 0.555);
+  background-color: rgb(70, 70, 70);
+  border: 1px orangered solid;
+  border-radius: 10px;
+
+  text-align: center;
+}
+.rs button {
+  height: 10%;
+  background-color: rgb(70, 70, 70);
+  border: 1px orangered solid;
+  box-shadow: 15px 15px 19px 8px rgba(0, 0, 0, 0.555);
+  border-radius: 10px;
+  margin-bottom: 30%;
+  font-weight: bolder;
+}
+
+/***********************************************************************/
+
+.part7 {
+  width: 100%;
+  height: 450px;
+  background-color: rgb(20, 220, 53);
+}
+.part7 img {
+  box-shadow: 0px 10px 50px 10px rgb(0, 0, 0);
+}
+/***********************************************************************/
+
+.part8 {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+}
+.p81,
+.p82,
+.p83,
+.p84 {
+  background-color: rgb(71, 255, 86);
+  height: 80%;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  border-radius: 25px;
+}
+.part88 {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+}
+.p811 {
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px 25px 5px 25px;
+}
+.pp {
+  font-size: 28px;
+  font-weight: bolder;
+  text-shadow: 0 1px 0 rgb(255, 255, 255);
+}
+
+.p811 i:hover {
+  transition-duration: 0.5s;
+  animation: islam 1s infinite;
+  box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+.p811:hover {
+  box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+
+button {
+  cursor: pointer;
+}
+
+.p8 i {
+  font-size: 50px;
+  width: 52px;
+  margin-left: 39%;
+  text-align: center;
+  cursor: pointer;
+}
+.p811:hover {
+  -moz-box-shadow: inset 0px 10px 10px #ff0000;
+  -webkit-box-shadow: inset 0px 10px 10px #ff0000;
+  box-shadow: inset 0px 10px 10px #ee0000;
+}
+.p8 i:hover {
+  transition-duration: 1.5s;
+  animation: islam 1s infinite;
+  border: 1px rgb(252, 0, 0) solid;
+
+  border-radius: 50%;
+}
+
+@keyframes islam {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*********/
+.op i {
+  height: 50px;
+  width: 50px;
+  font-size: 50px;
+  position: fixed;
+  z-index: 460;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+  animation: islam 1s infinite ease-out;
+  cursor: pointer;
+  color: rgb(132, 0, 255);
+}
+
+.ss {
+  background-color: rgb(77, 77, 77);
+  height: 380px;
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+  margin-left: -150px;
+  position: fixed;
+  border-radius: 0px 50px 50px 0px;
+}
+.gg {
+  width: 150px;
+  z-index: 55;
+  margin-right: -150px;
+  position: fixed;
+}
+
+.col {
+  border: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.col1 {
+  background-color: rgb(255, 0, 0);
+}
+
+.col2 {
+  background-color: yellow;
+}
+.col3 {
+  background-color: green;
+}
+.col4 {
+  background-color: blue;
+}
+.col5 {
+  background-color: aqua;
+}
+.col6 {
+  background-color: #ffffff;
+}
+.col7 {
+  background-color: wheat;
+}
+.col8 {
+  background-color: rgb(0, 0, 0);
+}
+/*****************************************/
+@media (max-width: 767px) {
+  nav a {
+    font-size: 10px;
+  }
+  .smallimg {
+    width: 40%;
+  }
+  .smallimg abbr {
+    width: 40px;
+    height: 40px;
+  }
+  .smallimg abbr img {
+    width: 40px;
+    height: 40px;
+  }
+  .smallimg abbr img:hover {
+    transition-duration: 0.4s;
+    box-shadow: 0px 0px 20px 10px rgb(41, 4, 1);
+    height: 45px;
+    width: 45px;
+  }
+  .fasel {
+    font-size: 10px;
+  }
+  .fasel .d1 {
+    font-size: 10px;
+  }
+  .fasel span {
+    font-size: 10px;
+  }
+
+  .info p {
+    font-size: 17px;
+  }
+
+  .p8 i {
+    margin-left: 28%;
+  }
+  .op i {
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+  }
+  .ss {
+    height: 180px;
+    width: 75px;
+    font-size: 10px;
+    border-radius: 0px 25px 25px 0px;
+  }
+  .col {
+    height: 10px;
+    width: 50px;
+  }
+  .part3 .p3 {
+    font-size: 7px;
+  }
+  .part3 .p3 i {
+    margin-left: 22%;
+  }
+}
